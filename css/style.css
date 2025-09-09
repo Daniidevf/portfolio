@@ -152,7 +152,7 @@ a {
 .online-link {
     display: flex;
     gap: 7px;
-    width: 136px;
+    width: 170px;
     align-items: center;
     margin-top: 5px;
 }
@@ -1270,4 +1270,5 @@ footer {
 @keyframes progress-shine {
     0% { transform: translateY(-100%); }
     100% { transform: translateX(100%); }
+
 }
