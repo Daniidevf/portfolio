@@ -20,11 +20,12 @@
             <i class="fas fa-code"></i>Dani<span>i</span>
         </a>
         <ul class="nav-links">
-            <li><a href="#home" class="active">Accueil</a></li>
-            <li><a href="#about">À Propos</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="active" data-i18n="nav.home">Accueil</a></li>
+            <li><a href="#about" data-i18n="nav.about">À Propos</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Compétences</a></li>
+            <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li><button id="language-toggle" class="btn-lang">EN</button></li>
         </ul>
         <div class="nav-toggler">
             <span></span>
@@ -38,13 +39,13 @@
     <div class="container">
         <div class="hero-content">
             <div class="hero-text">
-                <span class="hello">Salut, je suis</span>
+                <span class="hello" data-i18n="hero.hello">Salut, je suis</span>
                 <h1 class="name">Madani <span>Traoré</span></h1>
-                <h2 class="my-profession">Je suis <span class="typing">Développeur Full Stack</span></h2>
-                <p class="intro">Développeur Full Stack passionné avec 3 ans d'expérience dans la création de solution numériques innovantes pour le web et mobile</p>
+                <h2 class="my-profession" data-i18n="hero.profession">Je suis <span class="typing">Développeur Full Stack</span></h2>
+                <p class="intro" data-i18n="hero.intro">Développeur Full Stack passionné avec 3 ans d'expérience dans la création de solution numériques innovantes pour le web et mobile</p>
                 <div class="hero-btns">
-                    <a href="#contact" class="btn btn-primary">Contactez-moi</a>
-                    <a href="#" class="btn btn-outline">Télécharger CV</a>
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.contactBtn">Contactez-moi</a>
+                    <a href="#" class="btn btn-outline" data-i18n="hero.cvBtn">Télécharger CV</a>
                 </div>
             </div>
             <div class="hero-img">
@@ -63,39 +64,39 @@
 <section id="about" class="section about">
     <div class="container">
         <div class="section-title">
-            <h2>À Propos de Moi</h2>
-            <p>Découvrez mon parcours, mes compétences et ma passion pour la technologie</p>
+            <h2 data-i18n="about.title">À Propos de Moi</h2>
+            <p data-i18n="about.subtitle">Découvrez mon parcours, mes compétences et ma passion pour la technologie</p>
         </div>
         <div class="about-content">
             <div class="about-text">
-                <h3>Je suis <span>Madani Traoré</span></h3>
-                <p>Je suis un jeune Malien passionné par les nouvelles technologies depuis mon plus jeune âge. Ma fascination pour les mathématiques m'a naturellement conduit vers la programmation. Je suis une personne déterminée, sérieuse et adaptable, avec une forte capacité d'apprentissage.</p>
-                <p>Je parle couramment le Bambara, le Français et l'Anglais. Mes loisirs incluent la lecture, les jeux vidéo et le sport.</p>
-                <p>Avec plus de 3 ans d'expérience dans le développement web et mobile, j'ai travaillé sur divers projets allant des applications d'entreprise aux solutions IoT innovantes.</p>
+                <h3><span data-i18n="about.im">Je suis</span>  <span class="span-name">Madani Traoré</span></h3>
+                <p data-i18n="about.text1">Je suis un jeune Malien passionné par les nouvelles technologies depuis mon plus jeune âge. Ma fascination pour les mathématiques m'a naturellement conduit vers la programmation. Je suis une personne déterminée, sérieuse et adaptable, avec une forte capacité d'apprentissage.</p>
+                <p data-i18n="about.text2">Je parle couramment le Bambara, le Français et l'Anglais. Mes loisirs incluent la lecture, les jeux vidéo et le sport.</p>
+                <p data-i18n="about.text3">Avec plus de 3 ans d'expérience dans le développement web et mobile, j'ai travaillé sur divers projets allant des applications d'entreprise aux solutions IoT innovantes.</p>
             </div>
             <div class="personal-info">
                 <div class="info-card">
                     <div class="info-grid">
                         <div class="info-item">
                             <i class="fas fa-user"></i>
-                            <p>Nom complet<br><span>Madani Traoré</span></p>
+                            <p data-i18n="about.info.name">Nom complet<br><span>Madani Traoré</span></p>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-phone"></i>
-                            <p>Téléphone<br><span>+223 70 98 38 95</span></p>
+                            <p data-i18n="about.info.phone">Téléphone<br><span>+223 70 98 38 95</span></p>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-envelope"></i>
-                            <p>Email<br><span>elmadanitraore@gmail.com</span></p>
+                            <p data-i18n="about.info.email">Email<br><span>elmadanitraore@gmail.com</span></p>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Localisation<br><span>Bamako, Mali</span></p>
+                            <p data-i18n="about.info.location">Localisation<br><span>Bamako, Mali</span></p>
                         </div>
                     </div>
                 </div>
                 <div class="info-card">
-                    <h3>Me suivre</h3>
+                    <h3 data-i18n="about.info.follow">Me suivre</h3>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#"><i class="fab fa-github"></i></a>
@@ -111,8 +112,8 @@
 <section id="skills" class="section skills">
     <div class="container">
         <div class="section-title">
-            <h2>Mes compétences</h2>
-            <p>Technologies et outils que je maîtrise</p>
+            <h2 data-i18n="skills.title">Mes compétences</h2>
+            <p data-i18n="skills.subtitle">Technologies et outils que je maîtrise</p>
         </div>
         <div class="skills-container">
             <div class="skill-card">
@@ -158,7 +159,7 @@
                 <div class="skill-icon">
                     <i class="devicon-android-plain"></i>
                 </div>
-                <h3>Mobile</h3>
+                <h3 data-i18n="skills.mobile">Mobile</h3>
                 <div class="skills-grid">
                     <div class="skill-item">
                         <i class="devicon-kotlin-plain"></i>
@@ -392,7 +393,7 @@
                 <div class="skill-icon">
                     <i class="fas fa-database"></i>
                 </div>
-                <h3>Bases de Données</h3>
+                <h3 data-i18n="skills.database">Bases de Données</h3>
                 <div class="skills-grid">
                     <div class="skill-item">
                         <i class="devicon-mysql-plain"></i>
@@ -434,8 +435,8 @@
 <section id="portfolio" class="section portfolio">
     <div class="container">
         <div class="section-title">
-            <h2>Mon Portfolio</h2>
-            <p>Découvrez mes projets récents</p>
+            <h2 data-i18n="portfolio.title">Mon Portfolio</h2>
+            <p data-i18n="portfolio.subtitle">Découvrez mes projets récents</p>
         </div>
         <div class="portfolio-grid">
             <!--Projet 1-->
@@ -445,8 +446,8 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h3>Addinn Store</h3>
-                            <p>Application web de gestion des ventes</p>
-                            <button class="btn btn-primary view-project" data-project="1">Voir les détails</button>
+                            <p data-i18n="portfolio.project1.desc">Application web de gestion des ventes</p>
+                            <button class="btn btn-primary view-project" data-project="1" data-i18n="portfolio.viewDetails">Voir les détails</button>
                         </div>
                     </div>
                 </div>
@@ -459,8 +460,8 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h3>Orange ISAGO</h3>
-                            <p>Back office de gestion des transactions</p>
-                            <button class="btn btn-primary view-project" data-project="2">Voir les détails</button>
+                            <p data-i18n="portfolio.project2.desc">Back office de gestion des transactions</p>
+                            <button class="btn btn-primary view-project" data-project="2" data-i18n="portfolio.viewDetails">Voir les détails</button>
                         </div>
                     </div>
                 </div>
@@ -473,8 +474,8 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h3>Orange Foro Lakana</h3>
-                            <p>Solution IoT avec intelligence artificielle</p>
-                            <button class="btn btn-primary view-project" data-project="3">Voir les détails</button>
+                            <p data-i18n="portfolio.project3.desc">Solution IoT avec intelligence artificielle</p>
+                            <button class="btn btn-primary view-project" data-project="3" data-i18n="portfolio.viewDetails">Voir les détails</button>
                         </div>
                     </div>
                 </div>
@@ -487,8 +488,8 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h3>Kwendoo</h3>
-                            <p>Cagnotte en ligne</p>
-                            <button class="btn btn-primary view-project" data-project="4">Voir les détails</button>
+                            <p data-i18n="portfolio.project4.desc">Cagnotte en ligne</p>
+                            <button class="btn btn-primary view-project" data-project="4" data-i18n="portfolio.viewDetails">Voir les détails</button>
                         </div>
                     </div>
                 </div>
@@ -501,8 +502,8 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h3>Kwendoo Tickets</h3>
-                            <p>Vente & Achat de ticket en ligne</p>
-                            <button class="btn btn-primary view-project" data-project="5">Voir les détails</button>
+                            <p data-i18n="portfolio.project5.desc">Vente & Achat de ticket en ligne</p>
+                            <button class="btn btn-primary view-project" data-project="5" data-i18n="portfolio.viewDetails">Voir les détails</button>
                         </div>
                     </div>
                 </div>
@@ -515,8 +516,8 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h3>Fiatope</h3>
-                            <p>Projet en ligne</p>
-                            <button class="btn btn-primary view-project" data-project="6">Voir les détails</button>
+                            <p data-i18n="portfolio.project6.desc">Projet en ligne</p>
+                            <button class="btn btn-primary view-project" data-project="6" data-i18n="portfolio.viewDetails">Voir les détails</button>
                         </div>
                     </div>
                 </div>
@@ -537,13 +538,13 @@
                 <img src="images/add.jpg" alt="Addinn Store">
             </div>
             <div class="modal-info">
-                <h4>Description du Projet</h4>
+                <h4 data-i18n="modal.description">Description du Projet</h4>
                 <div class="online-link">
                     <span class="offline"></span>
                     <a href="#">Addinn</a>
                 </div>
-                <p>Plateforme e-commerce complète pour Addinn Paris, permettant la gestion des ventes, des utilisateiurs et des stocks via une interface intuitive.</p>
-                <h5>Langages & Framework</h5>
+                <p data-i18n="modal.project1.description">Plateforme e-commerce complète pour Addinn Paris, permettant la gestion des ventes, des utilisateiurs et des stocks via une interface intuitive.</p>
+                <h5 data-i18n="modal.language">Langages & Framework</h5>
 
 
                 <div class="technologies">
@@ -555,19 +556,19 @@
                 </div>
 
                 <div class="project-details">
-                    <h5>Détails du Projet</h5>
+                    <h5 data-i18n="modal.details">Détails du Projet</h5>
                     <ul>
-                        <li>Conception et développement d'une application web responsive</li>
-                        <li>Systèm d'administration avancé pour la gestion des comptes</li>
-                        <li>Tableau de bord analytique pour le suivi des performances</li>
-                        <li>Intégration de paiements sécurisés via Stripe</li>
-                        <li>Système de gestion des stocks en temps réel</li>
+                        <li data-i18n="modal.project1.detail1">Conception et développement d'une application web responsive</li>
+                        <li data-i18n="modal.project1.detail2">Systèm d'administration avancé pour la gestion des comptes</li>
+                        <li data-i18n="modal.project1.detail3">Tableau de bord analytique pour le suivi des performances</li>
+                        <li data-i18n="modal.project1.detail4">Intégration de paiements sécurisés via Stripe</li>
+                        <li data-i18n="modal.project1.detail5">Système de gestion des stocks en temps réel</li>
                     </ul>
                 </div>
 
                 <div class="project-details">
-                    <h5>Résultats</h5>
-                    <p>L'application a permis à Addinn Paris d'augmenter ses ventes en ligne de 40% et de réduire le temps de gestion administrative de 30%</p>
+                    <h5 data-i18n="modal.results">Résultats</h5>
+                    <p data-i18n="modal.project1.results">L'application a permis à Addinn Paris d'augmenter ses ventes en ligne de 40% et de réduire le temps de gestion administrative de 30%</p>
                 </div>
             </div>
         </div>
@@ -586,13 +587,13 @@
                 <img src="images/orange.png" alt="Orange ISAGO" style="background: white">
             </div>
             <div class="modal-info">
-                <h4>Description du Projet</h4>
+                <h4 data-i18n="modal.description">Description du Projet</h4>
                 <div class="online-link">
                     <span class="offline"></span>
                     <a href="#">ISAGO</a>
                 </div>
-                <p>Solution back-office développée pour Orange Mali, optimisant la gestion et la configuration des services financiers ISAGO.</p>
-                <h5>Langages & Framework</h5>
+                <p data-i18n="modal.project2.description">Solution back-office développée pour Orange Mali, optimisant la gestion et la configuration des services financiers ISAGO.</p>
+                <h5 data-i18n="modal.language">Langages & Framework</h5>
 
 
                 <div class="technologies">
@@ -604,19 +605,19 @@
                 </div>
 
                 <div class="project-details">
-                    <h5>Détails du Projet</h5>
+                    <h5 data-i18n="modal.details">Détails du Projet</h5>
                     <ul>
-                        <li>Développement d'un tableau de bord dynamique pour le suivi des transactions</li>
-                        <li>Mise en place d'un système de reporting avancé</li>
-                        <li>Interface d'administration pour la gestion des utilisateurs</li>
-                        <li>Intégration avec les systèmes financiers existants</li>
-                        <li>Mécanismes de sécurité renforcés pour les transactions</li>
+                        <li data-i18n="modal.project2.detail1">Développement d'un tableau de bord dynamique pour le suivi des transactions</li>
+                        <li data-i18n="modal.project2.detail2">Mise en place d'un système de reporting avancé</li>
+                        <li data-i18n="modal.project2.detail3">Interface d'administration pour la gestion des utilisateurs</li>
+                        <li data-i18n="modal.project2.detail4">Intégration avec les systèmes financiers existants</li>
+                        <li data-i18n="modal.project2.detail5">Mécanismes de sécurité renforcés pour les transactions</li>
                     </ul>
                 </div>
 
                 <div class="project-details">
-                    <h5>Résultats</h5>
-                    <p>La solution a permis à Orange Mali de réduire les erreurs de transaction de 25% et d'améliorer le temps de résolution des problèmes de 40%</p>
+                    <h5 data-i18n="modal.results">Résultats</h5>
+                    <p data-i18n="modal.project2.results">La solution a permis à Orange Mali de réduire les erreurs de transaction de 25% et d'améliorer le temps de résolution des problèmes de 40%</p>
                 </div>
             </div>
         </div>
@@ -634,13 +635,13 @@
                 <img src="images/foroLakana.jpg" alt="Orange Foro Lakana">
             </div>
             <div class="modal-info">
-                <h4>Description du Projet</h4>
+                <h4 data-i18n="modal.description">Description du Projet</h4>
                 <div class="online-link">
                     <span class="offline"></span>
                     <a href="#">Foro Lakana</a>
                 </div>
-                <p>Solution IoT combinant matériel embarqué et intelligence artificielle pour détecter et diagnostiquer les infections des plantes dans les exploitations agricoles.</p>
-                <h5>Langages & Framework</h5>
+                <p data-i18n="modal.project3.description">Solution IoT combinant matériel embarqué et intelligence artificielle pour détecter et diagnostiquer les infections des plantes dans les exploitations agricoles.</p>
+                <h5 data-i18n="modal.language">Langages & Framework</h5>
 
 
                 <div class="technologies">
@@ -652,19 +653,19 @@
                 </div>
 
                 <div class="project-details">
-                    <h5>Détails du Projet</h5>
+                    <h5 data-i18n="modal.details">Détails du Projet</h5>
                     <ul>
-                        <li>Conception d'un dispositif IoT avec capteurs environnementaux</li>
-                        <li>Développement d'algorithmes d'IA pour l'analyse d'images de plantes</li>
-                        <li>Application mobile permettant aux agriculteurs de scanner leurs plantes</li>
-                        <li>Plateforme web pour le suivi des exploitations agricoles</li>
-                        <li>Système d'alertes et recommandations personnalisées</li>
+                        <li data-i18n="modal.project3.detail1">Conception d'un dispositif IoT avec capteurs environnementaux</li>
+                        <li data-i18n="modal.project3.detail2">Développement d'algorithmes d'IA pour l'analyse d'images de plantes</li>
+                        <li data-i18n="modal.project3.detail3">Application mobile permettant aux agriculteurs de scanner leurs plantes</li>
+                        <li data-i18n="modal.project3.detail4">Plateforme web pour le suivi des exploitations agricoles</li>
+                        <li data-i18n="modal.project3.detail5">Système d'alertes et recommandations personnalisées</li>
                     </ul>
                 </div>
 
                 <div class="project-details">
-                    <h5>Résultats</h5>
-                    <p>La solution a permis de réduire les pertes agricoles de 35% dans les régions pilotes et a reçu le prix de l'innovation technologique au Mali.</p>
+                    <h5 data-i18n="modal.results">Résultats</h5>
+                    <p data-i18n="modal.project3.results">La solution a permis de réduire les pertes agricoles de 35% dans les régions pilotes et a reçu le prix de l'innovation technologique au Mali.</p>
                 </div>
             </div>
         </div>
@@ -683,13 +684,13 @@
                 <img src="images/kwendoo.png" alt="Kwendoo" style="object-fit: fill;">
             </div>
             <div class="modal-info">
-                <h4>Description du Projet</h4>
+                <h4 data-i18n="modal.description">Description du Projet</h4>
                 <div class="online-link">
                     <span class="online"></span>
                     <a href="https://www.kwendoo.com/" target="_blank" rel="noopener noreferrer">Kwendoo</a>
                 </div>
-                <p>Plateforme de cagnotte en ligne permettant de collecter des fonds pour des projets personnels ou associatifs.</p>
-                <h5>Langages & Framework</h5>
+                <p data-i18n="modal.project4.description">Plateforme de cagnotte en ligne permettant de collecter des fonds pour des projets personnels ou associatifs.</p>
+                <h5 data-i18n="modal.language">Langages & Framework</h5>
 
 
                 <div class="technologies">
@@ -701,19 +702,19 @@
                 </div>
 
                 <div class="project-details">
-                    <h5>Détails du Projet</h5>
+                    <h5 data-i18n="modal.details">Détails du Projet</h5>
                     <ul>
-                        <li>Intégration de fonctionnalités de paiment sécurisées et d'une interface simple pour l'utilisateur final</li>
-                        <li>Gestion des cagnottes et des contributeurs</li>
-                        <li>Système d'authentification et de profil utilisateur</li>
-                        <li>Intégration d'API de paiement (MangoPay/PayPal)</li>
-                        <li>Tableau de bord pour le suivi des contributeurs et des contributions</li>
+                        <li data-i18n="modal.project4.detail1">Intégration de fonctionnalités de paiment sécurisées et d'une interface simple pour l'utilisateur final</li>
+                        <li data-i18n="modal.project4.detail2">Gestion des cagnottes et des contributeurs</li>
+                        <li data-i18n="modal.project4.detail3">Système d'authentification et de profil utilisateur</li>
+                        <li data-i18n="modal.project4.detail4">Intégration d'API de paiement (MangoPay/PayPal)</li>
+                        <li data-i18n="modal.project4.detail5">Tableau de bord pour le suivi des contributeurs et des contributions</li>
                     </ul>
                 </div>
 
                 <div class="project-details">
-                    <h5>Résultats</h5>
-                    <p>Permet à des milliers d'utilisateurs de financer leurs projets et de collecter facilement des fonds en ligne partout dans le monde.</p>
+                    <h5 data-i18n="modal.results">Résultats</h5>
+                    <p data-i18n="modal.project4.results">Permet à des milliers d'utilisateurs de financer leurs projets et de collecter facilement des fonds en ligne partout dans le monde.</p>
                 </div>
             </div>
         </div>
@@ -732,13 +733,13 @@
                 <img src="images/logo-kwendoo-tickets.jpg" alt="Kwendoo Tickets" class="kwendoo-ticket">
             </div>
             <div class="modal-info">
-                <h4>Description du Projet</h4>
+                <h4 data-i18n="modal.description">Description du Projet</h4>
                 <div class="online-link">
                     <span class="online"></span>
                     <a href="https://tickets.kwendoo.com/" target="_blank" rel="noopener noreferrer">Kwendoo Tickets</a>
                 </div>
-                <p>Système de billetterie en ligne lié à la plateforme Kwendoo, permettant aux orginisateurs de créer, vendre et gérer des tickets pour des événements.</p>
-                <h5>Langages & Framework</h5>
+                <p data-i18n="modal.project5.description">Système de billetterie en ligne lié à la plateforme Kwendoo, permettant aux orginisateurs de créer, vendre et gérer des tickets pour des événements.</p>
+                <h5 data-i18n="modal.language">Langages & Framework</h5>
 
 
                 <div class="technologies">
@@ -750,19 +751,19 @@
                 </div>
 
                 <div class="project-details">
-                    <h5>Détails du Projet</h5>
+                    <h5 data-i18n="modal.details">Détails du Projet</h5>
                     <ul>
-                        <li>Module de création d'événements et de tickets</li>
-                        <li>Gestion des ventes et des participations</li>
-                        <li>Génération de QR codes pour validation des tickets</li>
-                        <li>Intégration d'API de paiement (MangoPay/PayPal)</li>
-                        <li>Intégration avec la base utilisateur de Kwendoo</li>
+                        <li data-i18n="modal.project5.detail1">Module de création d'événements et de tickets</li>
+                        <li data-i18n="modal.project5.detail2">Gestion des ventes et des participations</li>
+                        <li data-i18n="modal.project5.detail3">Génération de QR codes pour validation des tickets</li>
+                        <li data-i18n="modal.project5.detail4">Intégration d'API de paiement (MangoPay/PayPal)</li>
+                        <li data-i18n="modal.project5.detail5">Intégration avec la base utilisateur de Kwendoo</li>
                     </ul>
                 </div>
 
                 <div class="project-details">
-                    <h5>Résultats</h5>
-                    <p>Solution flexible qui a facilité la vente de milliers de tickets pour des événements variés.</p>
+                    <h5 data-i18n="modal.results">Résultats</h5>
+                    <p data-i18n="modal.project5.results">Solution flexible qui a facilité la vente de milliers de tickets pour des événements variés.</p>
                 </div>
             </div>
         </div>
@@ -781,13 +782,13 @@
                 <img src="images/logo-fiatop.png" alt="Fiatope" style="background: white">
             </div>
             <div class="modal-info">
-                <h4>Description du Projet</h4>
+                <h4 data-i18n="modal.description">Description du Projet</h4>
                 <div class="online-link">
                     <span class="online"></span>
                     <a href="https://www.fiatope.com/" target="_blank" rel="noopener noreferrer">Fiatope</a>
                 </div>
-                <p>Plateforme de financement participatif pour des projets en Afrique et dans la diaspora.</p>
-                <h5>Langages & Framework</h5>
+                <p data-i18n="modal.project6.description">Plateforme de financement participatif pour des projets en Afrique et dans la diaspora.</p>
+                <h5 data-i18n="modal.language">Langages & Framework</h5>
 
 
                 <div class="technologies">
@@ -799,19 +800,19 @@
                 </div>
 
                 <div class="project-details">
-                    <h5>Détails du Projet</h5>
+                    <h5 data-i18n="modal.details">Détails du Projet</h5>
                     <ul>
-                        <li>Intégration des moyens de paiement adaptés et un suivi complet des projets financés</li>
-                        <li>Mise en place d'une interface pour les porteurs de projets</li>
-                        <li>Suivi de financement et reporting</li>
-                        <li>Gestion des paiements multi-devises</li>
-                        <li>Sécurisation des transactions et données</li>
+                        <li data-i18n="modal.project6.detail1">Intégration des moyens de paiement adaptés et un suivi complet des projets financés</li>
+                        <li data-i18n="modal.project6.detail2">Mise en place d'une interface pour les porteurs de projets</li>
+                        <li data-i18n="modal.project6.detail3">Suivi de financement et reporting</li>
+                        <li data-i18n="modal.project6.detail4">Gestion des paiements multi-devises</li>
+                        <li data-i18n="modal.project6.detail5">Sécurisation des transactions et données</li>
                     </ul>
                 </div>
 
                 <div class="project-details">
-                    <h5>Résultats</h5>
-                    <p>Des centaines de projets financés et une meilleure visibilité pour les entrepreneurs africains.</p>
+                    <h5 data-i18n="modal.results">Résultats</h5>
+                    <p data-i18n="modal.project6.results">Des centaines de projets financés et une meilleure visibilité pour les entrepreneurs africains.</p>
                 </div>
             </div>
         </div>
@@ -821,8 +822,8 @@
 <section id="contact" class="section contact">
     <div class="container">
         <div class="section-title">
-            <h2>Contactez-Moi</h2>
-            <p>Parlons de votre prochain projet</p>
+            <h2 data-i18n="contact.title">Contactez-Moi</h2>
+            <p data-i18n="contact.subtitle">Parlons de votre prochain projet</p>
         </div>
         <div class="contact-content">
             <div class="contact-info">
@@ -830,47 +831,47 @@
                     <div class="icon">
                         <i class="fas fa-phone"></i>
                     </div>
-                    <h4>Téléphone</h4>
+                    <h4 data-i18n="contact.phone">Téléphone</h4>
                     <p>+223 70 98 38 95</p>
                 </div>
                 <div class="contact-info-item">
                     <div class="icon">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <h4>Email</h4>
+                    <h4 data-i18n="contact.email">Email</h4>
                     <p>elmadanitraore@gmail.com</p>
                 </div>
                 <div class="contact-info-item">
                     <div class="icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <h4>Localisation</h4>
+                    <h4 data-i18n="contact.location">Localisation</h4>
                     <p>Bamako, Mali</p>
                 </div>
                 <div class="contact-info-item">
                     <div class="icon">
                         <i class="fas fa-globe"></i>
                     </div>
-                    <h4>Website</h4>
+                    <h4 data-i18n="contact.website">Website</h4>
                     <p>www.madani-dev.ml</p>
                 </div>
             </div>
             <div class="contact-form">
                 <form>
                     <div class="form-group">
-                        <input type="text" placeholder="Votre nom" required>
+                        <input type="text" placeholder="Votre nom" data-i18n="contact.form.name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Votre email" required>
+                        <input type="email" placeholder="Votre email" data-i18n="contact.form.email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Sujet" required>
+                        <input type="text" placeholder="Sujet" data-i18n="contact.form.subject" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Votre message" required></textarea>
+                        <textarea placeholder="Votre message" data-i18n="contact.form.message" required></textarea>
                     </div>
                     <div class="submit">
-                        <button type="submit" class="btn btn-primary" id="submit">Envoyer Message</button>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact.form.send" id="submit">Envoyer Message</button>
                     </div>
 
                 </form>
@@ -885,7 +886,7 @@
             <div class="footer-col">
                 <h3>Madani Traoré</h3>
                 <div class="footer-about">
-                    <p>Développeur Full Stack passionné par la création de solutions numériques innovantes pour le web et mobile.</p>
+                    <p data-i18n="footer.about">Développeur Full Stack passionné par la création de solutions numériques innovantes pour le web et mobile.</p>
                     <div class="social-links-footer">
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#"><i class="fab fa-github"></i></a>
@@ -895,28 +896,28 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h3>Liens Rapides</h3>
+                <h3 data-i18n="footer.links">Liens Rapides</h3>
                 <ul class="footer-links">
-                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Accueil</a></li>
-                    <li><a href="#about"><i class="fas fa-chevron-right"></i> À Propos</a></li>
-                    <li><a href="#skills"><i class="fas fa-chevron-right"></i> Compétences</a></li>
-                    <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
-                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> <span data-i18n="nav.home">Accueil</span></a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> <span data-i18n="nav.about">À propos</span></a></li>
+                    <li><a href="#skills"><i class="fas fa-chevron-right"></i> <span data-i18n="nav.skills">Compétences</span></a></li>
+                    <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> <span data-i18n="nav.portfolio">Portfolio</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> <span data-i18n="nav.contact">Contact</span></a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h3>Compétences Clés</h3>
+                <h3 data-i18n="footer.skills">Compétences Clés</h3>
                 <ul class="footer-links">
-                    <li><a href="#"><i class="fas fa-chevron-right"></i> Développement Web</a></li>
-                    <li><a href="#"><i class="fas fa-chevron-right"></i> Applications Mobiles</a></li>
-                    <li><a href="#"><i class="fas fa-chevron-right"></i> Solutions IoT</a></li>
-                    <li><a href="#"><i class="fas fa-chevron-right"></i> Intelligence Artificielle</a></li>
-                    <li><a href="#"><i class="fas fa-chevron-right"></i> UX/UI Design</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> <span data-i18n="footer.skill1">Développement Web</span></a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> <span data-i18n="footer.skill2">Applications Mobiles</span></a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> <span data-i18n="footer.skill3">Solutions IoT</span></a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> <span data-i18n="footer.skill4">Intelligence Artificielle</span></a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> <span data-i18n="footer.skill5">UX/UI Design</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2025 Madani Traoré. Tous droits réservés.</p>
+            <p>&copy; 2025 Madani Traoré. <span data-i18n="footer.rights">Tous droits réservés</span>.</p>
         </div>
     </div>
 </footer>
