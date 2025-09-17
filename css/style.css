@@ -144,6 +144,24 @@ a {
     color: var(--white);
 }
 
+/* Style pour le bouton de langue */
+.btn-lang {
+    background: rgba(108, 99, 255, 0.2);
+    color: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.btn-lang:hover {
+    background: var(--primary);
+    transform: translateY(-2px);
+}
+
 .submit {
     display: flex;
     justify-content: center;
@@ -507,7 +525,7 @@ header.scrolled {
     color: var(--white);
 }
 
-.about-text h3 span {
+.span-name {
     color: var(--primary);
 }
 
@@ -1272,4 +1290,5 @@ footer {
     100% { transform: translateX(100%); }
 
 }
+
 
