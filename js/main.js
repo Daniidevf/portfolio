@@ -26,7 +26,7 @@ const translations = {
         "about.info.phone": "Téléphone",
         "about.info.email": "Email",
         "about.info.location": "Localisation",
-        "about.follow": "Me suivre",
+        "about.info.follow": "Me suivre",
 
         // Skills section
         "skills.title": "Mes Compétences",
@@ -155,7 +155,7 @@ const translations = {
         "about.info.phone": "Phone",
         "about.info.email": "Email",
         "about.info.location": "Location",
-        "about.follow": "Follow me",
+        "about.info.follow": "Follow me",
 
         // Skills section
         "skills.title": "My Skills",
@@ -657,3 +657,4 @@ function initModals() {
         }
     });
 }
+
