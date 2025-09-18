@@ -571,7 +571,7 @@ header.scrolled {
 
 .info-item {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 15px;
 }
 
@@ -1290,5 +1290,6 @@ footer {
     100% { transform: translateX(100%); }
 
 }
+
 
 
