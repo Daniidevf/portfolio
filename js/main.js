@@ -117,6 +117,9 @@ const translations = {
         "contact.form.subject": "Sujet",
         "contact.form.message": "Votre message",
         "contact.form.send": "Envoyer Message",
+        "contact.form.succes": "Message envoyé avec succès !",
+        "contact.form.response": "Je vous répondrai dès que possible.",
+
 
         // Footer
         "footer.about": "Développeur Full Stack passionné par la création de solutions numériques innovantes pour le web et mobile.",
@@ -246,6 +249,8 @@ const translations = {
         "contact.form.subject": "Subject",
         "contact.form.message": "Your message",
         "contact.form.send": "Send Message",
+        "contact.form.succes": "Message sent successfully!",
+        "contact.form.response": "I will get back to you as soon as possible.",
 
         // Footer
         "footer.about": "Full Stack Developer passionate about creating innovative digital solutions for web and mobile.",
@@ -574,8 +579,8 @@ contactForm.addEventListener("submit", (e) => {
     // Animation de succès
     contactForm.innerHTML = `<div style="text-align: center; padding: 50px 0;">
 <i class="fas fa-check-circle" style="font-size: 5rem; color: #6c63ff; margin-bottom: 20px;"></i>
-<h3 style="color: white; margin-bottom: 20px;">Message envoyé avec succès !</h3>
-<p style="color: rgba(255, 255, 255, 0.8);">Je vous répondrai dès que possible.</p>
+<h3 style="color: white; margin-bottom: 20px;" data-i18n="contact.form.succes">Message envoyé avec succès !</h3>
+<p style="color: rgba(255, 255, 255, 0.8);" data-i18n="contact.form.response">Je vous répondrai dès que possible.</p>
 </div>
     `;
 });
@@ -657,4 +662,5 @@ function initModals() {
         }
     });
 }
+
 
