@@ -583,6 +583,7 @@ contactForm.addEventListener("submit", (e) => {
 <p style="color: rgba(255, 255, 255, 0.8);" data-i18n="contact.form.response">Je vous répondrai dès que possible.</p>
 </div>
     `;
+    setLanguage(currentLanguage);
 });
 
 // Animations on scroll
@@ -662,5 +663,6 @@ function initModals() {
         }
     });
 }
+
 
 
